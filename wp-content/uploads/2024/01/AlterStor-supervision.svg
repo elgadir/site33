@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+  <path d="M30 52H10.2812C8.47219 52 7 50.5337 7 48.7318V16.2682C7 14.4663 8.47219 13 10.2812 13H59.7188C61.5278 13 63 14.4663 63 16.2682V48.7318C63 50.5337 61.5278 52 59.7188 52H40M30 52V57M30 52H40M40 52V57H45H24" stroke="#2D6DBB"></path>
+  <rect x="14" y="18" width="8" height="5" stroke="#2D6DBB"></rect>
+  <rect x="14" y="26" width="8" height="5" stroke="#2D6DBB"></rect>
+  <rect x="14" y="34" width="8" height="5" stroke="#2D6DBB"></rect>
+  <rect x="14" y="42" width="8" height="5" stroke="#2D6DBB"></rect>
+  <rect x="25" y="18" width="8" height="5" stroke="#2D6DBB"></rect>
+  <rect x="25" y="26" width="8" height="5" stroke="#2D6DBB"></rect>
+  <rect x="25" y="34" width="8" height="5" stroke="#2D6DBB"></rect>
+  <rect x="25" y="42" width="8" height="5" stroke="#2D6DBB"></rect>
+  <path d="M39 47V18" stroke="#2D6DBB" stroke-linecap="square"></path>
+  <path d="M43 47L43 24" stroke="#2D6DBB" stroke-linecap="square"></path>
+  <path d="M47 47L47 20" stroke="#2D6DBB" stroke-linecap="square"></path>
+  <path d="M51 47L51 31" stroke="#2D6DBB" stroke-linecap="square"></path>
+  <path d="M55 47L55 36" stroke="#2D6DBB" stroke-linecap="square"></path>
+</svg>

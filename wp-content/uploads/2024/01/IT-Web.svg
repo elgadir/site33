@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="159" height="222" viewBox="0 0 159 222" fill="none">
+  <path d="M61.7626 35.5755V20C61.7626 17.2386 59.524 15 56.7626 15H20C17.2386 15 15 17.2386 15 20V129.712C15 132.474 17.2386 134.712 20 134.712H56.7626C59.524 134.712 61.7626 132.474 61.7626 129.712V117.878" stroke="#2FD0F3"></path>
+  <path d="M49.4496 35.5752C48.5591 30.2672 43.9427 26.2227 38.3817 26.2227C32.1834 26.2227 27.1587 31.2474 27.1587 37.4457C27.1587 41.9751 29.8419 45.8778 33.7055 47.6511" stroke="#2FD0F3"></path>
+  <path d="M27.1587 73.9209H33.7055" stroke="#2FD0F3"></path>
+  <path d="M27.1587 81.4033H33.7055" stroke="#2FD0F3"></path>
+  <path d="M27.1587 88.8848H33.7055" stroke="#2FD0F3"></path>
+  <path d="M27.1587 96.3672H33.7055" stroke="#2FD0F3"></path>
+  <rect x="33.7051" y="35.5762" width="111.295" height="82.3022" rx="5" stroke="#2D6DBB"></rect>
+  <path d="M58 56V95C58 96.1046 58.8954 97 60 97H120.5" stroke="#2D6DBB"></path>
+  <path d="M66 97V65" stroke="#29CC6A"></path>
+  <path d="M74 97L74 69" stroke="#29CC6A"></path>
+  <path d="M82 97L82 82" stroke="#FC5555"></path>
+  <path d="M90 97L90 74" stroke="#2D6DBB"></path>
+  <path d="M98 97L98 60" stroke="#29CC6A"></path>
+  <path d="M106 97L106 88" stroke="#FC5555"></path>
+  <path d="M114 97L114 69" stroke="#29CC6A"></path>
+  <path d="M82.3384 127.23V117.878H97.3024V123.639" stroke="#2D6DBB"></path>
+  <path d="M54.2808 127.23H87.9498M125.36 127.23H110.396" stroke="#2D6DBB"></path>
+  <path d="M125.301 15.0004L117.878 22.4238L125.301 29.8472" stroke="#FF9900"></path>
+  <path d="M137.549 29.8472L144.973 22.4238L137.549 15.0004" stroke="#FF9900"></path>
+  <rect x="89.3359" y="121.619" width="43.0216" height="77.6259" rx="5" transform="rotate(15 89.3359 121.619)" stroke="#2D6DBB"></rect>
+  <path d="M99.8696 129.282L102.279 129.928M105.892 130.896L117.937 134.123" stroke="#2D6DBB"></path>
+  <circle cx="91.7169" cy="195.844" r="2.30576" transform="rotate(15 91.7169 195.844)" stroke="#2D6DBB"></circle>
+</svg>

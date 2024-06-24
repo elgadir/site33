@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="181" height="110" viewBox="0 0 181 110" fill="none">
+  <path d="M82.666 107V96H98.666V107M82.666 107H42.666M82.666 107H98.666M138.666 107H98.666" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M22.666 82.5V88C22.666 92.4183 26.2477 96 30.666 96H150.666C155.084 96 158.666 92.4183 158.666 88V82.5M22.666 82.5V9C22.666 4.58172 26.2477 1 30.666 1H150.666C155.084 1 158.666 4.58172 158.666 9V82.5M22.666 82.5H158.666" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <rect x="37.666" y="15" width="30" height="16" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <rect x="37.666" y="35" width="30" height="16" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <rect x="37.666" y="55" width="30" height="16" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <rect x="71.666" y="15" width="30" height="16" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <rect x="71.666" y="35" width="30" height="16" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <rect x="71.666" y="55" width="30" height="16" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <path d="M110.666 71V15.5" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M118.666 71V49" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M126.666 71L126.666 31" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M134.666 71L134.666 23" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M142.666 71V49" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+</svg>

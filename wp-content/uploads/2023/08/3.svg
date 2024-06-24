@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="181" height="110" viewBox="0 0 181 110" fill="none">
+  <g clip-path="url(#clip0_920_7569)">
+    <ellipse cx="98.168" cy="55" rx="18.5" ry="54" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <ellipse cx="98.1688" cy="55" rx="18.5" ry="54" transform="rotate(15 98.1688 55)" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <ellipse cx="98.168" cy="55" rx="18.5" ry="54" transform="rotate(30 98.168 55)" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <ellipse cx="98.168" cy="55" rx="18.5" ry="54" transform="rotate(30 98.168 55)" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <ellipse cx="98.1672" cy="55" rx="18.5" ry="54" transform="rotate(45 98.1672 55)" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <ellipse cx="98.1682" cy="55" rx="18.5" ry="54" transform="rotate(60 98.1682 55)" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <ellipse cx="98.1692" cy="55" rx="18.5" ry="54" transform="rotate(75 98.1692 55)" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <ellipse cx="98.168" cy="55" rx="18.5" ry="54" transform="rotate(90 98.168 55)" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+    <ellipse cx="98.1671" cy="55" rx="18.5" ry="54" transform="rotate(105 98.1671 55)" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></ellipse>
+  </g>
+  <defs>
+    <clipPath id="clip0_920_7569">
+      <rect width="180" height="110" fill="white" transform="translate(0.667969)"></rect>
+    </clipPath>
+  </defs>
+</svg>

@@ -1,0 +1,187 @@
+body {
+    background-color: #F8F8F8;
+}
+.top-banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+}
+
+.top-banner .content-wrapper {
+    text-align: center;
+}
+
+.top-banner h1, .top-banner div {
+    color: var(--white, #FFF);
+}
+
+.top-banner .banner-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 22px;
+    margin-top: 15px;
+}
+
+section.cards {
+    margin-top: -98px;
+    position: relative;
+    z-index: 2;
+}
+
+section.clients {
+    padding: 150px 0;
+}
+
+.banner {
+    position: relative;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
+
+.banner-content-wrapper {
+    position: absolute;
+    height: 400px;
+    width: 100%;
+    max-width: 935px;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    padding: 30px 100px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    flex-shrink: 0;
+    background: var(--black, #1A1A1A);
+}
+
+.banner-content-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+    align-self: stretch;
+}
+
+.banner-content-texts h2 {
+    align-self: stretch;
+    color: var(--white, #FFF);
+    text-align: left;
+}
+
+.banner-content-texts .description {
+    align-self: stretch;
+    color: var(--white, #FFF);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+
+.group-cyllene .text-with-button-container {
+    max-width: 870px;
+}
+
+section.client-projects {
+    padding: 150px 0 95px;
+}
+
+.client-projects h2 {
+    color: var(--black, #1A1A1A);
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.client-projects .description {
+    color: var(--black, #1A1A1A);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.client-projects .partner-logos {
+    text-align: left;
+    word-spacing: 30px;
+    line-height: 68px;
+    margin-bottom: 45px;
+}
+
+.client-projects .partner-logos img {
+    display: inline;
+    width: 80px;
+    height: 48px;
+    object-fit: contain;
+}
+
+.client-projects .project-cards-container {
+    margin-top: 30px;
+}
+
+.client-projects .buttons-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    margin-top: 50px;
+}
+
+
+@media only screen and (max-width: 992px){
+
+    section.cards {
+        margin-top: 0;
+        padding: 24px 0;
+    }
+
+    section.clients {
+        padding: 50px 0;
+    }
+
+    section.client-projects {
+        padding: 50px 0 50px;
+    }
+
+    .banner {
+        height: var(--viewport-height, 100vh);
+    }
+
+    .banner-content-wrapper {
+        height: 60%;
+        max-width: unset;
+        padding: 24px;
+        gap: 24px;
+
+    }
+
+    .banner-content-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        align-self: stretch;
+    }
+
+    .banner-content-texts h2 {
+        align-self: stretch;
+        color: var(--white, #FFF);
+        text-align: left;
+    }
+
+    .banner-content-texts .description {
+        align-self: stretch;
+        color: var(--white, #FFF);
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 22px; /* 137.5% */
+    }
+
+}

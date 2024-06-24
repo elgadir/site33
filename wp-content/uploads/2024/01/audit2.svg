@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+  <ellipse cx="50.168" cy="53.666" rx="12.25" ry="12.25" stroke="#2D6DBB"></ellipse>
+  <path d="M43.168 51.6441H50.2457M43.168 55.6886H50.2457M53.8164 47.8525C52.8504 46.748 51.605 46.083 50.2457 46.083C47.1744 46.083 44.6846 49.4782 44.6846 53.6663C44.6846 57.8545 47.1744 61.2497 50.2457 61.2497C51.605 61.2497 52.8504 60.5847 53.8164 59.4802" stroke="#2D6DBB"></path>
+  <rect x="7.58398" y="44.333" width="7" height="7.58334" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <rect x="18.084" y="40.25" width="7" height="11.6667" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <rect x="28.584" y="32.666" width="7" height="19.25" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></rect>
+  <path d="M46.084 41.9997V18.083H39.084V48.4163" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M56.584 43.1663V4.08301H49.584V41.4163" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <ellipse cx="50.168" cy="53.666" rx="12.25" ry="12.25" stroke="#2D6DBB"></ellipse>
+</svg>

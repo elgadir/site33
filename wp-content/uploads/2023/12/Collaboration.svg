@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+  <g id="Collaboration">
+    <path id="Vector" d="M59.5004 9.91704L52.5002 16.9173M52.5 9.91699L59.5002 16.9172" stroke="#2D6DBB" stroke-linejoin="round"></path>
+    <path id="Vector_2" d="M15.1674 42.0001L8.16719 49.0003M8.16699 42L15.1672 49.0002" stroke="#2D6DBB" stroke-linejoin="round"></path>
+    <path id="Vector 33" d="M10.5 18.083H38.6407C43.0733 18.083 46.6667 21.6764 46.6667 26.109V26.109C46.6667 30.5416 43.0733 34.135 38.6407 34.135H30.7657C26.3387 34.135 22.75 37.7237 22.75 42.1507V42.1507C22.75 46.5776 26.3387 50.1663 30.7657 50.1663H63.5833" stroke="#2D6DBB" stroke-linejoin="round" stroke-dasharray="2 2"></path>
+    <ellipse id="Ellipse 61" cx="7" cy="18.083" rx="3.5" ry="3.5" stroke="#2D6DBB" stroke-linejoin="round"></ellipse>
+    <circle id="Ellipse 62" cx="42.583" cy="61.25" r="3.5" stroke="#2D6DBB" stroke-linejoin="round"></circle>
+    <path id="Rectangle 119" d="M59.542 45.458L64.3332 50.2492L59.542 55.0403" stroke="#2D6DBB" stroke-linejoin="round"></path>
+  </g>
+</svg>

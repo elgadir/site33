@@ -1,0 +1,329 @@
+body {
+    background-color: #F8F8F8;
+}
+
+.title-container {
+    padding: 70px 0 250px;
+    position: relative;
+}
+
+.title-container .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.title-container h1 {
+    margin-top: 5px;
+    text-align: center;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.title-container .subtitle {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+}
+
+.title-container .separator {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 1px;
+    height: 200px;
+    background-color: #DEDEDE;
+}
+
+.contact-section {
+    padding: 50px 0;
+}
+
+.contact-section .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact-description {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+
+.contact-section .contact-button {
+    margin-top: 50px;
+}
+
+.tabs-section {
+    padding: 150px 0 135px;
+}
+
+.tabs-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 97px;
+}
+
+.tab-item {
+    display: block;
+    padding: 20px 10px;
+    white-space: nowrap;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px; /* 122.222% */
+}
+
+.tab-item.active {
+    color: var(--blue, #2D6DBB);
+    border-bottom: 2px solid var(--blue, #2D6DBB);
+}
+
+.solutions-container {
+    overflow: hidden;
+}
+.solutions-container .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.solutions-container .swiper-slide .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.solution-image {
+    width: 45%;
+    aspect-ratio: 765 / 500;
+    object-position: center;
+    object-fit: cover;
+}
+
+.solutions-content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 70px;
+    max-width: 600px;
+}
+
+
+.solutions-content {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+}
+
+.solution-icons {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 30px;
+    row-gap: 15px;
+    margin-top: 32px;
+}
+
+.solution-icon {
+    width: 80px;
+    height: 48px;
+    object-position: center;
+    object-fit: contain;
+}
+
+.people-section {
+    padding-bottom: 150px;
+}
+
+.people-title {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.people-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    column-gap: 135px;
+    row-gap: 50px;
+    margin-top: 50px;
+}
+
+.person-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.person-image {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-position: center;
+    object-fit: cover;
+}
+
+.person-name {
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px; /* 110% */
+    margin-top: 26px;
+}
+
+.person-title {
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px; /* 137.5% */
+    margin-top: 10px;
+}
+
+.project-cards-section .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.projects-title {
+    text-align: center;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 50px;
+}
+
+.project-cards-section .discover-button {
+    margin-top: 100px;
+}
+
+.text-content-section {
+    padding: 150px 0;
+}
+
+.text-content-item {
+    margin-top: 50px;
+}
+
+.text-content-item:first-child {
+    margin-top: 0;
+}
+
+.text-content-item .content-title {
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.text-content-item .content-desc {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+    margin-top: 15px;
+}
+
+.text-content-item .content-desc a {
+    display: inline-block;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration-line: underline;
+}
+
+@media only screen and (max-width: 992px) {
+
+    .tabs-section {
+        padding: 50px 0;
+    }
+
+    .tabs-container {
+        overflow-x: scroll;
+        padding-bottom: 5px;
+        margin-bottom: 40px;
+        -ms-overflow-style: none; /* IE and Edge */
+        scrollbar-width: none; /* Firefox */
+    }
+    .tabs-container::-webkit-scrollbar {
+        display: none; /* Hide scrollbar for Chrome, Safari and Opera */
+    }
+
+
+    .tab-item {
+        padding: 20px 20px;
+    }
+
+    .solutions-container{
+        overflow: hidden;
+    }
+
+    .solutions-container .swiper-slide .content-wrapper {
+        flex-direction: column;
+    }
+
+
+    .solution-image {
+        width: 100%;
+        aspect-ratio: 765 / 500;
+        object-position: center;
+        object-fit: cover;
+    }
+
+    .solutions-content-wrapper {
+        margin-left: 0;
+        max-width: 100%;
+        padding: 24px;
+    }
+
+    .people-container {
+        display: flex;
+        flex-wrap: wrap;
+        grid-template-columns: unset;
+        column-gap: unset;
+        row-gap: 50px;
+        margin-top: 50px;
+    }
+
+    .person-item {
+        width: 100%;
+    }
+
+    .people-section {
+        padding-bottom: 50px;
+    }
+
+    .text-content-section {
+        padding: 50px 0;
+    }
+
+
+    .project-cards-section .discover-button {
+        margin-top: 50px;
+    }
+
+}

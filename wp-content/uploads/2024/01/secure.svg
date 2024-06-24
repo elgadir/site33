@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+  <g id="Collaboration">
+    <path id="Ellipse 30" d="M41.3466 30.9611L33.7316 38.5761L30.155 34.9996M22.0781 24.2303V35.9139C22.0781 40.3696 24.3735 44.5111 28.152 46.8726L35.0012 51.1534L41.8504 46.8726C45.6289 44.5111 47.9243 40.3696 47.9243 35.9139V24.2303L35.0012 18.8457L22.0781 24.2303Z" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+    <circle id="Ellipse 72" cx="35" cy="35" r="24.5" stroke="#2D6DBB" stroke-linecap="round" stroke-dasharray="6 6"></circle>
+    <circle id="Ellipse 73" cx="35.0013" cy="35.0003" r="30.3333" stroke="#2D6DBB" stroke-linecap="round" stroke-dasharray="12 12"></circle>
+  </g>
+</svg>

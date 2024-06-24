@@ -1,0 +1,87 @@
+$(function(){
+    $('.nav-icon').click(function(){
+        $(this).toggleClass('open');
+        $('.header-menu').toggleClass('open');
+        $('body').toggleClass('menu-open');
+    });
+    // let prevScrollPos = window.scrollY || window.pageYOffset;
+    // let $header = $('header');
+
+    // window.onscroll = function() {
+    //     const currentScrollPos = window.scrollY || window.pageYOffset;
+
+    //     if(currentScrollPos <= 0) {
+    //         $header.removeClass('fixed').removeClass('hidden');
+    //         return;
+    //     }
+
+    //     if (prevScrollPos > currentScrollPos) {
+    //         $header.removeClass('hidden');
+    //         $header.addClass('fixed');
+    //     } else if (currentScrollPos > 150) {
+    //         $header.addClass('hidden');
+    //     }
+
+    //     prevScrollPos = currentScrollPos;
+    // };
+});
+
+const validateEmail = (email) => {
+    return String(email)
+        .toLowerCase()
+        .match(
+            /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/
+        );
+};
+
+$(function() {
+
+    let isInProgress = false;
+    $('.newsletter-form').on('submit', function() {
+        if(isInProgress) {
+            return false;
+        }
+
+        isInProgress = true;
+
+        let $form = $(this);
+        let $message = $form.find('.message');
+        let email = $(this).find('input[name="email"]').val();
+
+        $form.removeClass('error');
+        $form.removeClass('success');
+        $message.hide();
+
+        if(!validateEmail(email)) {
+            $form.addClass('error');
+            $message.html($message.data('email-wrong-message')).show();
+            isInProgress = false;
+            return false;
+        }
+
+        $.post(ajaxurl, {
+            action: 'email_subscription',
+            email:email
+        }, function(data){
+            if(data.status === 200) {
+                $form.addClass('success');
+                $message.html($message.data('success-message')).show();
+            } else {
+                $form.addClass('error');
+                let msg = data.message ? data.message : 'Unexpected error happened';
+                $message.html(msg).show();
+            }
+
+            isInProgress = false;
+        },'json');
+
+        return false;
+    });
+
+});
+
+//set full height
+document.documentElement.style.setProperty('--viewport-height', `${window.innerHeight}px`);
+window.addEventListener('resize', function(event) {
+    document.documentElement.style.setProperty('--viewport-height', `${window.innerHeight}px`);
+}, true);

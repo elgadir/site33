@@ -1,0 +1,54 @@
+$(function () {
+
+    let swiper = new Swiper('.swiper-container.solutions-container', {
+        slidesPerView: 1,
+		autoHeight: true,
+        //centeredSlides: true
+        // navigation: {
+        //     nextEl: '.swiper-button-next',
+        //     prevEl: '.swiper-button-prev',
+        // },
+        // autoplay: {
+        //     delay: 10000
+        // },
+        // loop: true,
+        // allowTouchMove: true
+    });
+	
+
+    swiper.on('slideChange', function () {
+        $('.tab-item.active').removeClass('active');
+        $('.tab-item[data-index='+swiper.realIndex+']').addClass('active');
+    });
+
+    $('.tab-item').on('click', function (){
+        $this = $(this);
+        if ($this.hasClass('active')){
+            return;
+        }
+        $('.tab-item.active').removeClass('active');
+        $this.addClass('active');
+        swiper.slideTo($this.data('index'));
+
+		
+    });
+
+    (function() {
+        if(window.location.hash.length) {
+            const hash = window.location.hash.slice(1);
+            const activeTab = document.querySelector('.tab-item[data-id="'+hash+'"]');
+            if(activeTab) {
+                document.querySelectorAll('.tab-item.active').forEach((el) => {el.classList.remove('active')});
+                activeTab.classList.add('active');
+                const index = Array.from(activeTab.parentNode.children).indexOf(activeTab);
+                swiper.slideTo(index);
+                window.scrollTo(0, document.querySelector('.tabs-section').offsetTop);
+            }
+        }
+    })();
+
+    /*if (window.innerWidth>992){
+        $('.tab-item[data-index=2]').click();
+    }*/
+
+});

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 70 70" fill="none">
+  <path d="M50.7079 39.6663L50.7079 26.7881M13.0156 49.9419L13.0156 39.7112M20.5541 49.9419L20.5541 35.4035M28.0925 49.9419L28.0925 31.6342M35.631 49.9419L35.631 36.4804M43.1695 42.2913L43.1695 31.6342" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M8.16797 35.4038L21.2871 25.6639C24.0933 23.5805 27.8876 23.424 30.8558 25.2691V25.2691C33.8857 27.1525 37.7684 26.9469 40.5825 24.7542L56.6295 12.25" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M49.6289 12.25H56.6289V19.25" stroke="#2D6DBB" stroke-linecap="round" stroke-linejoin="round"></path>
+  <ellipse cx="50.75" cy="51.917" rx="12.25" ry="12.25" stroke="#2D6DBB"></ellipse>
+  <circle cx="50.752" cy="47.963" r="4.21296" stroke="#2D6DBB"></circle>
+  <path d="M43.168 61.5414V59.7591C43.168 55.571 46.5631 52.1758 50.7513 52.1758C54.9395 52.1758 58.3346 55.571 58.3346 59.7591V61.5414" stroke="#2D6DBB"></path>
+</svg>
